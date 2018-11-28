@@ -1,0 +1,10 @@
+//pour les sprites
+gfx2gba -fsrc -D -t8 -pmaster_sprite.pal *.bmp
+
+//pour les bg text
+gfx2gba -fsrc -m -t8 -pmaster_level.pal *.bmp
+echo "changer dans la palette 0x0010 par 0x0000 pour avoir la couleur noire"
+
+//pour les bg rot
+gfx2gba -fsrc -m -F -rs -t8 -pmaster_level.pal *.bmp
+echo "changer dans la palette 0x0010 par 0x0000 pour avoir la couleur noire"

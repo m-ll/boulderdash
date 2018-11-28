@@ -1,0 +1,13 @@
+#ifndef _GBA_TIMER_H_
+#define _GBA_TIMER_H_
+
+#define FREQUENCY_SYSTEM		0x0000
+#define FREQUENCY_64			0x0001
+#define FREQUENCY_256			0x0002
+#define FREQUENCY_1024			0x0003
+
+#define TIMER_OVERFLOW			0x0004
+#define TIMER_IRQ				0x0040
+#define TIMER_ENABLE			0x0080
+
+#endif
