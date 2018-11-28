@@ -1,0 +1,16 @@
+[VisualHamOFileListV1]
+main.cpp
+sprite.cpp
+gba.cpp
+debug.cpp
+ext_include.cpp
+math_trigo.cpp
+background.cpp
+background_rotation.cpp
+background_text.cpp
+bg_boulder.cpp
+sprite_rotation.cpp
+sprite_bitmap.cpp
+divers.cpp
+interrupt.cpp
+save.cpp
